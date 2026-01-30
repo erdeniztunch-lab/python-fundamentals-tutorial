@@ -1,6 +1,27 @@
-# Python for Complete Beginners
+# Python for Complete Beginners 🐍
 
-Welcome! This guide is designed for people who have never programmed before.
+Welcome! This repository contains short lessons and exercises for people new to programming. The files are small, focused, and ready to run.
+
+---
+
+## Quick start ✅
+
+1. Install Python 3.10+ (project tested with Python 3.13.7).
+2. Create and activate a virtual environment (Windows PowerShell):
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+
+3. (Optional) Install linting/formatting tools:
+
+```powershell
+pip install --upgrade pip
+pip install flake8 black pylint
+```
+
+---
 
 ## What You'll Learn
 
@@ -17,15 +38,17 @@ Welcome! This guide is designed for people who have never programmed before.
 
 Work through the files in this order:
 
-1. **01_what_is_python.py** - Start here! Learn what Python is
-2. **02_expressions_and_statements.py** - Understand basic concepts
-3. **03_variables.py** - Store information
-4. **04_strings.py** - Work with text
-5. **05_numbers_and_arithmetic.py** - Do math
-6. **06_comparisons_and_logic.py** - Compare values
-7. **07_conditional_statements.py** - Make decisions
-8. **08_loops.py** - Repeat code
-9. **09_functions.py** - Create reusable code
+0. **00_terminal_basics.py** - Terminal basics: running Python and using the shell
+1. **01_what_is_python.py** - What Python is and how it works
+2. **02_expressions_and_statements.py** - Expressions and statements
+3. **03_variables.py** - Variables and basic types
+4. **04_strings.py** - Working with text and string methods
+5. **05_numbers_and_arithmetic.py** - Numbers and arithmetic operations
+6. **06_comparisons_and_logic.py** - Comparison and logical operators
+7. **07_conditional_statements.py** - if / elif / else usage
+8. **08_loops.py** - for and while loops
+9. **09_functions.py** - Defining and using functions
+10. **10_code_quality_and_linting.py** - Code style, linting, and formatting tips
 
 ### How to Read the Files
 
@@ -172,6 +195,30 @@ Once you complete all files:
    - Gradually increase difficulty
    - Share your code on GitHub
 
+## Linting & formatting (recommended) ✨
+
+- Check style with `flake8`:
+
+```powershell
+flake8 .
+```
+
+- Run `pylint` for detailed feedback:
+
+```powershell
+pylint 01_what_is_python.py
+```
+
+- Auto-format code with `black`:
+
+```powershell
+black .
+```
+
+These tools help keep examples consistent and teach good habits.
+
+---
+
 ## Resources
 
 ### Free Learning Resources
@@ -185,6 +232,14 @@ Once you complete all files:
 - Stack Overflow (for questions)
 - Python Discord servers
 - Local coding meetups
+
+## Contributing ✍️
+
+- Found a typo or clearer wording? Send a pull request
+- Add small improvements to examples or exercises
+- Keep changes focused and include brief descriptions in commits
+
+---
 
 ## Remember
 
